@@ -8,6 +8,8 @@ The environment that is used assumes that `${WEBWORK_ROOT} == ${PG_ROOT}`
 
 ## Docker command
 
+Start the shell via
+
 ```bash
 docker run -it --rm --name minimal-test -v `pwd`:/opt/webwork/pg eltenedor/perl-webwork:latest
 ```
